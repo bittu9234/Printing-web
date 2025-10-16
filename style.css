@@ -154,12 +154,19 @@ body {
 }
 
 .longimg {
-  background-color: white;
+  background-color: white !important;
   /* margin-top: 200px;
   margin-right: 20px !important; */
   padding-top: 140px;
   overflow: hidden;
 }
+/* @media (min-width: 576px) and (max-width: 768px){
+  .custom-scroll-row img{
+    width: 50% !important;
+  }
+} */
+  
+
 
 /* Common scroll container */
 .custom-scroll-wrapper {
